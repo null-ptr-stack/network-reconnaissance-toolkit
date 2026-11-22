@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated scan reports
+reports/scans/*
+reports/json/*
+reports/csv/*
+
+# Preserve report directories
+!reports/scans/.gitkeep
+!reports/json/.gitkeep
+!reports/csv/.gitkeep
+
+# Local environment
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
